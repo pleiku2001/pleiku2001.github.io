@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+
+    color: rgb(29, 1, 1);
+    background-color: bisque;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(184, 143, 89);
+}
+.container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.newtask{
+    border: 2px solid;
+    margin: 5px;
+    background-color: brown;
+    color: azure;
+    padding: 5px;
+}
